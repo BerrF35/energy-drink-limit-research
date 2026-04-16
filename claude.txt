@@ -1,0 +1,17 @@
+Here is the full toxicological analysis. The short answer is: caffeine is by far the primary lethal agent in White Monster, with secondary concerns from niacin and sodium at extreme volumes. Everything below is grounded in established pharmacological thresholds.
+About White Monster (Monster Energy Ultra White) — each 16 fl oz (473 ml) can contains 160 mg caffeine, 2,000 mg taurine, 36 mg niacin (B3), and ~370 mg sodium. It is sugar-free at ~10 calories.
+
+The acute (single-session) lethal ceiling is driven almost entirely by caffeine. The estimated human LD50 (the dose lethal to 50% of a population) is roughly 150–200 mg of caffeine per kilogram of body weight, based on extrapolated animal data and documented fatal cases. For a 70 kg (154 lb) adult this places the LD50 at approximately 10,500–14,000 mg of caffeine — equivalent to roughly 66–88 cans consumed in a single session. Documented human fatalities, however, have occurred at far lower levels (as low as 3–5 g, or 19–31 cans) in individuals with underlying cardiac conditions, low body weight, or caffeine naïveté. Severe, life-threatening toxicity (seizures, ventricular arrhythmia, rhabdomyolysis) can begin at doses above 5,000 mg — around 31 cans.
+The chronic daily lethal threshold is a slower, more insidious process. The FDA's safe upper limit is 400 mg/day (2.5 cans). Health deterioration — elevated blood pressure, cardiac arrhythmia, adrenal exhaustion, sleep pathology — begins to compound meaningfully above 600–800 mg/day (approximately 4–5 cans). Sustained daily intake above 3,000 mg (roughly 19 cans/day) is associated in the literature with severe cardiovascular outcomes and chronic organ stress. Niacin toxicity becomes an independent concern around 42 cans/day, and sodium overload (exceeding the safe daily maximum roughly sixfold) occurs at about 6 cans/day.
+The interactive report below lets you adjust body weight and explore all three time horizons — acute, daily, and monthly — with real-world comparisons at each scale.
+  ::view-transition-group(*),
+  ::view-transition-old(*),
+  ::view-transition-new(*) {
+    animation-duration: 0.25s;
+    animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+  }
+VvisualizeVvisualize show_widget
+Key takeaways across all three horizons:
+The acute lethal ceiling scales with body weight — for a 70 kg adult it sits around 77 cans (≈ 12,250 mg caffeine) to reach the LD50, but meaningful cardiac risk begins far earlier, at roughly 31 cans. The slider in the report adjusts all figures to your actual weight.
+On a daily basis, 2.5 cans is the evidence-based ceiling that regulators converge on globally. Above 4–5 cans per day, cumulative blood pressure elevation, sleep disruption, and adrenal strain begin to compound across weeks and months. The "fatal chronic territory" — where sustained daily intake becomes cardiologically dangerous — sits around 19 cans per day, a volume that is physically challenging to consume and financially ruinous before it is lethal.
+The monthly picture reveals an often-overlooked hazard: niacin. Even at the safe caffeine ceiling (75 cans/month), you consume 2,700 mg of niacin — 77 times the supplemental upper tolerable limit. This is the compound most likely to cause insidious liver damage in heavy long-term energy-drink users, well before caffeine becomes acutely dangerous.
