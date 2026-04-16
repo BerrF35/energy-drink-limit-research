@@ -11,77 +11,105 @@
     <script src="main.js" defer></script>
 </head>
 <body>
+    <nav class="nav-bar">
+        <a href="chatgpt.docx" download>ChatGPT Report</a>
+        <a href="claude.txt" target="_blank">Claude Report</a>
+        <a href="gemini.docx" download>Gemini Report</a>
+        <a href="perplexity.docx" download>Perplexity Report</a>
+    </nav>
+
     <div class="container">
         <header>
-            <h1>Lethal <span>Limit</span></h1>
+            <h1>Lethal Limit</h1>
             <p class="subtitle">A comparative toxicological analysis of Monster Energy Ultra White consumption across four independent AI research models.</p>
         </header>
 
         <div class="grid">
-            <!-- Claude Card -->
-            <div class="card">
-                <div class="card-title">CLAUDE-3.5</div>
-                <div class="card-content">
-                    <p>Analysis focused on pharmacological thresholds and secondary toxicity from niacin and sodium.</p>
-                    <span class="lethal-number">77 <span class="lethal-unit">CANS</span></span>
-                    <p>Severe cardiac risk begins at 31 cans. Chronic danger territory at 19 cans/day.</p>
+            <!-- Claude Section -->
+            <section class="report-section">
+                <div class="report-title">Claude-3.5 Analysis</div>
+                <div class="report-content">
+                    <div class="lethal-stat">
+                        <span class="lethal-number">77</span>
+                        <span class="lethal-unit">CANS</span>
+                    </div>
+                    <div class="report-description">
+                        Analysis focused on pharmacological thresholds and secondary toxicity from niacin and sodium.
+                        <span>Severe cardiac risk begins at 31 cans. Chronic danger territory at 19 cans/day.</span>
+                    </div>
                 </div>
-            </div>
+            </section>
 
-            <!-- ChatGPT Card -->
-            <div class="card">
-                <div class="card-title">GPT-4O</div>
-                <div class="card-content">
-                    <p>Emphasized the LD50 extrapolation and the physical impossibility of consumption before metabolic rejection.</p>
-                    <span class="lethal-number">85 <span class="lethal-unit">CANS</span></span>
-                    <p>Acute toxicity symptoms appear after 4-5 cans. Daily safe limit capped at 2.6 cans.</p>
+            <!-- ChatGPT Section -->
+            <section class="report-section">
+                <div class="report-title">GPT-4o Analysis</div>
+                <div class="report-content">
+                    <div class="lethal-stat">
+                        <span class="lethal-number">85</span>
+                        <span class="lethal-unit">CANS</span>
+                    </div>
+                    <div class="report-description">
+                        Emphasized the LD50 extrapolation and the physical impossibility of consumption before metabolic rejection.
+                        <span>Acute toxicity symptoms appear after 4-5 cans. Daily safe limit capped at 2.6 cans.</span>
+                    </div>
                 </div>
-            </div>
+            </section>
 
-            <!-- Gemini Card -->
-            <div class="card">
-                <div class="card-title">GEMINI-1.5</div>
-                <div class="card-content">
-                    <p>Focus on individual variability, cardiovascular history, and the "red line" of habituation.</p>
-                    <span class="lethal-number">70 <span class="lethal-unit">CANS</span></span>
-                    <p>Irreversible cardiac strain observed in "stacking" scenarios beyond 3 cans.</p>
+            <!-- Gemini Section -->
+            <section class="report-section">
+                <div class="report-title">Gemini-1.5 Analysis</div>
+                <div class="report-content">
+                    <div class="lethal-stat">
+                        <span class="lethal-number">70</span>
+                        <span class="lethal-unit">CANS</span>
+                    </div>
+                    <div class="report-description">
+                        Focus on individual variability, cardiovascular history, and the "red line" of habituation.
+                        <span>Irreversible cardiac strain observed in "stacking" scenarios beyond 3 cans.</span>
+                    </div>
                 </div>
-            </div>
+            </section>
 
-            <!-- Perplexity Card -->
-            <div class="card">
-                <div class="card-title">PERPLEXITY-PPLX</div>
-                <div class="card-content">
-                    <p>Real-time data aggregation highlighting documented fatal cases at significantly lower thresholds.</p>
-                    <span class="lethal-number">92 <span class="lethal-unit">CANS</span></span>
-                    <p>Documented fatalities as low as 20 cans in sensitive individuals.</p>
+            <!-- Perplexity Section -->
+            <section class="report-section">
+                <div class="report-title">Perplexity-PPLX Analysis</div>
+                <div class="report-content">
+                    <div class="lethal-stat">
+                        <span class="lethal-number">92</span>
+                        <span class="lethal-unit">CANS</span>
+                    </div>
+                    <div class="report-description">
+                        Real-time data aggregation highlighting documented fatal cases at significantly lower thresholds.
+                        <span>Documented fatalities as low as 20 cans in sensitive individuals.</span>
+                    </div>
                 </div>
-            </div>
+            </section>
         </div>
 
         <section class="summary-section">
-            <h2 class="summary-title">Consensus Analysis</h2>
+            <h2 class="summary-title">Consensus</h2>
             <div class="summary-grid">
                 <div class="summary-item">
                     <div class="label">Acute LD50 Avg</div>
-                    <div class="value">~81 Cans</div>
+                    <div class="value">~81</div>
                 </div>
                 <div class="summary-item">
                     <div class="label">Critical Risk</div>
-                    <div class="value">30 Cans</div>
+                    <div class="value">30</div>
                 </div>
                 <div class="summary-item">
                     <div class="label">Daily Safe Max</div>
-                    <div class="value">2.5 Cans</div>
+                    <div class="value">2.5</div>
                 </div>
             </div>
+            
             <div class="disclaimer">
-                IMPORTANT: This research is for educational purposes only. Intaking extreme amounts of caffeine is life-threatening. The theoretical LD50 assumes a healthy 70kg adult and ignores underlying conditions which can lower the lethal threshold significantly.
+                IMPORTANT: This research is for educational purposes only. Intaking extreme amounts of caffeine is life-threatening. The theoretical LD50 assumes a healthy adult and ignores underlying conditions which can lower the lethal threshold significantly.
             </div>
         </section>
 
         <footer>
-            &copy; 2026 Energy Drink Limit Research. Professional Analysis.
+            Energy Drink Limit Research. No emojis used.
         </footer>
     </div>
 </body>
